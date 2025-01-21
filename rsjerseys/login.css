@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('pngtree-a-football-field-in-vibrant-green-3d-rendered-image-picture-image_3653598.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Header Styles */
+header {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color for header */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 3px solid #ffcd00; /* Adding a border for emphasis */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+  padding: 30px;
+}
+
+.banner {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.banner img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Footer Styles */
+footer {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color for footer */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+  border-top: 3px solid #ffcd00; /* Adding a border for emphasis */
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+/* Centering the headers */
+h2, .wrapper h1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #f3f3f3;
+}
+
+.wrapper {
+
+width: 95;
+
+max-width: 500px;
+
+margin: 200px auto;
+
+padding: 30px 40px;
+
+text-align: center;
+
+background: transparent;
+
+border-radius: 10px;
+
+box-shadow: 0 0 13px rgba(228, 224, 224, 0.918);
+
+backdrop-filter: blur(15px);
+
+}
+
+.login-btn, .signup-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.login-btn {
+  margin-left: 20px;
+  margin-left: auto;
+  background-color: #0e61b4; /* Blue */
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-btn {
+  background-color: #28a745; /* Green */
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-btn:hover, .signup-btn:hover {
+  background-color: #0c4d8a; /* Darker Blue on hover */
+}
+
+.container {
+  width: 400px;
+  padding: 16px;
+  background-color: white;
+  margin: 100px auto;
+  box-shadow: 0px 0px 5px 0px grey;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"], input[type="password"] {
+
+  width: 80%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+
+input[type="submit"] {
+  background-color: #460909;
+  color: white;
+  cursor: pointer;
+  width: 50%;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #28023a;
+  text-size-adjust: 40px;
+}
+
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}

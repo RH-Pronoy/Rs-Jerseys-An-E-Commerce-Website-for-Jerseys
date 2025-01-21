@@ -1,0 +1,223 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('background-for-website.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Header Styles */
+header {
+  animation: fadeInDown 1s ease;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 13px;
+  text-align: center;
+  border-bottom: 2px solid #ffcd00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo Styles */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 60px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Account and Cart Button Styles */
+.account-button, .cart-button {
+  margin-left: 20px;
+}
+
+.account-button a, .cart-button a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.account-button a i, .cart-button a i {
+  margin-right: 8px;
+}
+/* Main Content Styles */
+main {
+  padding: 30px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+  border-top: 3px solid #ffcd00;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+
+/* Animation */
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Centering the headers */
+h2, .wrapper h1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #4B0101;
+}
+  
+  .wrapper {
+    width: 90%;
+    max-width: 500px;
+    margin: 75px auto;
+    padding: 30px 40px;
+    text-align: center;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 13px rgba(228, 224, 224, 0.918);
+    backdrop-filter: blur(15px);
+  }
+  
+  .wrapper h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .input input, .input select {
+    width: 90%;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 20px;
+    outline: none;
+  }
+  
+  .error {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    color: red;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 70%;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #022003;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 1024px) {
+    .wrapper {
+      padding: 20px 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .wrapper {
+      padding: 15px 20px;
+    }
+  
+    .input input, .input select {
+      width: 100%; /* Full width for smaller screens */
+    }
+  
+    input[type="submit"] {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .wrapper {
+      padding: 10px 15px;
+    }
+  
+    .input input, .input select {
+      width: 100%; /* Full width for smaller screens */
+      padding: 0 10px; /* Reduce padding for smaller screens */
+    }
+  
+    input[type="submit"] {
+      width: 90%;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  

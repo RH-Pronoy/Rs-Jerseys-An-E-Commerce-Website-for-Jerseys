@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('pngtree-a-football-field-in-vibrant-green-3d-rendered-image-picture-image_3653598.jpg');
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-attachment: fixed; /* Fixed background image */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff; /* Default text color */
+  }
+  
+ /* Header Styles */
+header {
+  animation: fadeInDown 1s ease;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 3px solid #ffcd00;
+
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  flex: 1;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Account Button Styles */
+.account-button {
+  margin-right: 20px;
+}
+
+.account-button a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+
+}
+
+.account-button a i {
+  margin-right: 8px;
+}
+  
+.wrapper {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.profile h1 {
+    text-align: center;
+    color: #333;
+}
+
+.profile p {
+    text-align: center;
+    color: #666;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color for footer */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    border-top: 3px solid #ffcd00; /* Adding a border for emphasis */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  

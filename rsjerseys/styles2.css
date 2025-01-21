@@ -1,0 +1,93 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('pngtree-a-football-field-in-vibrant-green-3d-rendered-image-picture-image_3653598.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #ffcd00;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .wrapper {
+
+    width: 100%;
+    max-width: 600px;
+    margin: 195px auto;
+    padding: 30px 40px;
+    text-align: center;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 13px rgba(228, 224, 224, 0.918);
+    backdrop-filter: blur(15px);
+  }
+  
+  .wrapper h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .login-btn, .signup-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn {
+    background-color: #640bad;
+    color: #fff;
+  }
+  
+  .signup-btn {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .login-btn:hover, .signup-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color for footer */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    border-top: 3px solid #ffcd00; /* Adding a border for emphasis */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
